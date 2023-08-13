@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula01\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {}
+    "C:\\Users\\lucca\\Source\\Repos\\.NetTesteIntegrado\\alura.estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula01\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {
+    "C:\\Users\\lucca\\Source\\Repos\\.NetTesteIntegrado\\alura.estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula01\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
+        "projectUniqueName": "C:\\Users\\lucca\\Source\\Repos\\.NetTesteIntegrado\\alura.estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
         "projectName": "Alura.Estacionamento",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula01\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula01\\Alura.Estacionamento\\Alura.Estacionamento\\obj\\",
+        "projectPath": "C:\\Users\\lucca\\Source\\Repos\\.NetTesteIntegrado\\alura.estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
+        "packagesPath": "C:\\Users\\lucca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucca\\Source\\Repos\\.NetTesteIntegrado\\alura.estacionamento\\Alura.Estacionamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,16 +45,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
